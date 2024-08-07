@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{59659ADA-E007-4C30-87E2-285352EC804B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{C24204B0-9A59-456C-A8BF-30665FB75B87}"
+	ProjectSection(SolutionItems) = preProject
+		kod.cs = kod.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseModels", "BaseModels", "{51B213A0-2B20-4505-81DA-F631D908B075}"
+	ProjectSection(SolutionItems) = preProject
+		BaseDocument.cs = BaseDocument.cs
+		eArsiv_eMustahsil.cs = eArsiv_eMustahsil.cs
+		eIrsaliye_eFatura.cs = eIrsaliye_eFatura.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QEF", "QEF", "{0FAF33DB-B8FC-486B-8302-9EA2453189B8}"
+	ProjectSection(SolutionItems) = preProject
+		eArsiv.cs = eArsiv.cs
+		eFatura.cs = eFatura.cs
+		eIrsaliye.cs = eIrsaliye.cs
+		eMustahsil.cs = eMustahsil.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FIT", "FIT", "{89F1E08C-E8AF-4783-96E7-008149BA27DA}"
+	ProjectSection(SolutionItems) = preProject
+		eArsiv.cs = eArsiv.cs
+		eFatura.cs = eFatura.cs
+		eIrsaliye.cs = eIrsaliye.cs
+		eMustahsil.cs = eMustahsil.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EDM", "EDM", "{9D1F88F8-E053-481A-8DB3-2B961B61E59E}"
+	ProjectSection(SolutionItems) = preProject
+		eArsiv.cs = eArsiv.cs
+		eFatura.cs = eFatura.cs
+		eIrsaliye.cs = eIrsaliye.cs
+		eMustahsil.cs = eMustahsil.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DPLANET", "DPLANET", "{A2E776CA-4204-46A4-AA25-B961C7C264AB}"
+	ProjectSection(SolutionItems) = preProject
+		eArsiv.cs = eArsiv.cs
+		eFatura.cs = eFatura.cs
+		eIrsaliye.cs = eIrsaliye.cs
+		eMustahsil.cs = eMustahsil.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51B213A0-2B20-4505-81DA-F631D908B075} = {C24204B0-9A59-456C-A8BF-30665FB75B87}
+		{0FAF33DB-B8FC-486B-8302-9EA2453189B8} = {C24204B0-9A59-456C-A8BF-30665FB75B87}
+		{89F1E08C-E8AF-4783-96E7-008149BA27DA} = {C24204B0-9A59-456C-A8BF-30665FB75B87}
+		{9D1F88F8-E053-481A-8DB3-2B961B61E59E} = {C24204B0-9A59-456C-A8BF-30665FB75B87}
+		{A2E776CA-4204-46A4-AA25-B961C7C264AB} = {C24204B0-9A59-456C-A8BF-30665FB75B87}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29BF032D-EBF1-419F-9F46-A77AC4ABDA8C}
+	EndGlobalSection
+EndGlobal
